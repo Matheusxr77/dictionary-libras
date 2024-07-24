@@ -16,6 +16,14 @@ def carregar_sinais():
     with open('./data/sinais.json', 'r', encoding='utf-8') as arquivo:
         dados = json.load(arquivo)
         return [Sinal(**sinal) for sinal in dados]
+    
+# Carregando a lista de sinais
+listaSinais = carregar_sinais()
+
+# Rota para a página inicial
+@webApp.route('/')
+def inicio():
+    return render_template('index.html', titulo='Lista de Disciplinas', listaSinais=listaSinais)
 
 # Iniciando a aplicação Flask em modo de depuração
 if __name__ == '__main__':
