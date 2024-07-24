@@ -11,6 +11,12 @@ webApp = Flask(__name__)
 # Definindo a chave secreta para a sessão da aplicação
 webApp.secret_key = 'UFAPE'
 
+# Função para carregar sinais do arquivo JSON
+def carregar_sinais():
+    with open('./data/sinais.json', 'r', encoding='utf-8') as arquivo:
+        dados = json.load(arquivo)
+        return [Sinal(**sinal) for sinal in dados]
+
 # Iniciando a aplicação Flask em modo de depuração
 if __name__ == '__main__':
     webApp.run(debug=True)
