@@ -13,7 +13,7 @@ webApp.secret_key = 'UFAPE'
 
 # Função para carregar sinais do arquivo JSON
 def carregar_sinais():
-    with open('./data/sinais.json', 'r', encoding='utf-8') as arquivo:
+    with open('./static/data/sinais.json', 'r', encoding='utf-8') as arquivo:
         dados = json.load(arquivo)
         return [Sinal(**sinal) for sinal in dados]
     
@@ -24,6 +24,24 @@ listaSinais = carregar_sinais()
 @webApp.route('/')
 def inicio():
     return render_template('index.html', titulo='Lista de Disciplinas', listaSinais=listaSinais)
+
+# Rota para a página de Introdução à Programação
+@webApp.route('/introducao-a-programacao')
+def introducaoProgramacao():
+    sinais_ip = [sinal for sinal in listaSinais if sinal.disciplina == "Introdução à Programação"]
+    return render_template('ip.html', titulo="Disciplina de Introdução à Programação", listaSinais=sinais_ip)
+
+# Rota para a página de Introdução à Computação
+@webApp.route('/introducao-a-computacao')
+def introducaoComputacao():
+    sinais_ic = [sinal for sinal in listaSinais if sinal.disciplina == "Introdução à Computação"]
+    return render_template('ic.html', titulo="Disciplina de Introdução à Computação", listaSinais=sinais_ic)
+
+# Rota para a página de Programação Orientada a Objetos
+@webApp.route('/programacao-orientada-a-objetos')
+def programacaoOrientada():
+    sinais_poo = [sinal for sinal in listaSinais if sinal.disciplina == "Programação Orientada a Objetos"]
+    return render_template('poo.html', titulo="Disciplina de Programação Orientada a Objetos", listaSinais=sinais_poo)
 
 # Iniciando a aplicação Flask em modo de depuração
 if __name__ == '__main__':
