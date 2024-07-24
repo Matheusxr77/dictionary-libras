@@ -1,0 +1,134 @@
+[
+    {
+        "nome": "Algoritmo",
+        "descricao": "Um conjunto de instruções que executa uma tarefa específica",
+        "video": "https://www.youtube.com/embed/Dw-AYPBGbsQ?si=g058252g5EXP3cjA",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Arquivos",
+        "descricao": "Local onde dados são armazenados de forma permanente",
+        "video": "https://www.youtube.com/embed/2hy0-2Ue-nY?si=L8gmcByikN3c1GvI",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Banco de Dados",
+        "descricao": "Sistema organizado de armazenamento de dados",
+        "video": "https://www.youtube.com/embed/B6dKYUAGn9k?si=9CYXLd4apMivQ2rr",
+        "disciplina": "Banco de Dados"
+    },
+    {
+        "nome": "Código",
+        "descricao": "Conjunto de instruções escritas em uma linguagem de programação",
+        "video": "https://www.youtube.com/embed/0rjQPw57k7g?si=OqE1jwsEL6lLSCQ6",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Comando",
+        "descricao": "Instrução específica para ser executada por um computador",
+        "video": "https://www.youtube.com/embed/KanYq_DCV50?si=JXulw4HXFqy1HWH6",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Compilar",
+        "descricao": "Processo de transformar código fonte em código executável",
+        "video": "https://www.youtube.com/embed/aeKP9-y-sJk?si=dz4LayteMW5i7mjB",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Configuração",
+        "descricao": "Ajustes e definições que controlam como um sistema ou aplicativo opera",
+        "video": "https://www.youtube.com/embed/_QB5k8t27iQ?si=rFFjpafotM5EsvsD",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Criptografia",
+        "descricao": "Método de proteger informações através da codificação",
+        "video": "https://www.youtube.com/embed/EpMQktHQR3I?si=xIHHIrZp0IxxahKW",
+        "disciplina": "Introdução à Computação"
+    },
+    {
+        "nome": "Executar",
+        "descricao": "Processo de rodar um programa ou comando",
+        "video": "https://www.youtube.com/embed/RwDuPkGIsI8?si=rUOzf3kDn1KEsXBs",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Função",
+        "descricao": "Bloco de código que executa uma tarefa específica e pode ser reutilizado",
+        "video": "https://www.youtube.com/embed/O3euDTSZcT8?si=tCL1vjhoG6TEi-WY",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Implementar",
+        "descricao": "Ato de escrever e adicionar código para criar funcionalidades",
+        "video": "https://www.youtube.com/embed/tRgIpo4qi5c?si=MToes0zTUEjCqYLy",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Java",
+        "descricao": "Linguagem de programação popular usada para desenvolver aplicações",
+        "video": "https://www.youtube.com/embed/z-0jK9jk1MY?si=PFvuXPHyK9yAWbh4",
+        "disciplina": "Programação Orientada a Objetos"
+    },
+    {
+        "nome": "JavaScript",
+        "descricao": "Linguagem de programação utilizada principalmente para desenvolvimento web",
+        "video": "https://www.youtube.com/embed/W1eG5QcHyko?si=UJNTr8oij7iePETF",
+        "disciplina": "Programação Orientada a Objetos"
+    },
+    {
+        "nome": "Linguagem de Programação",
+        "descricao": "Meio de comunicação para instruir computadores a realizar tarefas",
+        "video": "https://www.youtube.com/embed/tzdS553GsYQ?si=fbR88znYX8yAdoOO",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Orientação a Objetos",
+        "descricao": "Paradigma de programação baseado em objetos e suas interações",
+        "video": "https://www.youtube.com/embed/L6UfylBzans?si=FRVRG1EJt3ZRDysX",
+        "disciplina": "Programação Orientada a Objetos"
+    },
+    {
+        "nome": "Programa",
+        "descricao": "Conjunto de instruções que são executadas por um computador",
+        "video": "https://www.youtube.com/embed/n_t2VOKEW0E?si=qBq3GQ5vus4JDaBc",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Programar/Programador",
+        "descricao": "Ato de escrever código/Profissional que escreve código",
+        "video": "https://www.youtube.com/embed/UIoHAHK5O1w?si=Mb1j-mZlCsI0lci_",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Repositório",
+        "descricao": "Local onde o código fonte e outros arquivos são armazenados e gerenciados",
+        "video": "https://www.youtube.com/embed/7kYpWYQeGfY?si=GEgG7BSY4mv9MTuc",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Servidor",
+        "descricao": "Computador ou programa que fornece serviços a outros computadores ou programas",
+        "video": "https://www.youtube.com/embed/GiqkCTpyuSo?si=BUvFx2kSwTmt2UTd",
+        "disciplina": "Introdução à Computação"
+    },
+    {
+        "nome": "Sistema",
+        "descricao": "Conjunto de componentes interconectados que trabalham juntos para realizar uma função",
+        "video": "https://www.youtube.com/embed/sDfOagY2jtc?si=oUWrus-FjBn4F7VT",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Testar",
+        "descricao": "Processo de verificar se um software funciona conforme esperado",
+        "video": "https://www.youtube.com/embed/9nnpJu6roBc?si=MiM7YBtT-ay9o76P",
+        "disciplina": "Introdução à Programação"
+    },
+    {
+        "nome": "Variável",
+        "descricao": "Espaço de armazenamento que pode conter valores diferentes ao longo do tempo",
+        "video": "https://www.youtube.com/embed/SLhXrBvSfFQ?si=WeJ91PRcY8AUYiQV",
+        "disciplina": "Introdução à Programação"
+    }
+]
