@@ -1,0 +1,42 @@
+{% extends "comum/template.html" %}
+{% block conteudo %}
+
+<h1 class="text-center">{{ titulo }}</h1>
+<hr>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card text-right" style="width: 18rem;">
+            <div class="card-header">
+                <h5 class="text-center"> Introdução à Programação </h5>
+            </div>
+            <div class="card-body">
+                <p class="text-justify"> Ensino dos fundamentos da programação, com foco em lógica, estruturas de controle e construção de algoritmos simples. </p>
+                <a href="/introducao-a-programacao" class="btn btn-primary"> Ver Sinais </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-right" style="width: 18rem;">
+            <div class="card-header">
+                <h5 class="text-center"> Introdução à Computação </h5>
+            </div>
+            <div class="card-body">
+                <p class="text-justify"> Estudo dos conceitos básicos da ciência da computação, incluindo hardware, software, algoritmos e sistemas de informação. </p>
+                <a href="/introducao-a-computacao" class="btn btn-primary"> Ver Sinais </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-right" style="width: 18rem;">
+            <div class="card-header">
+                <h5 class="text-center"> Programação Orientada a Objetos </h5>
+            </div>
+            <div class="card-body">
+                <p class="text-justify"> Aprendizado da programação baseada em objetos, utilizando conceitos como classes e herança. </p>
+                <a href="/programacao-orientada-a-objetos" class="btn btn-primary"> Ver Sinais </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
